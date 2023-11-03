@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, me llamo Anderson Sarmiento Briceño</h1>
-<h3 align="center">soy un apasionado por la ciencia de datos</h3>
+<h3 align="center">soy un Ingeniero apasionado por la ciencia de datos</h3>
 
 - 🔭Actualmente estoy trabajando en **Proyectos de ciencia de datos**
 
