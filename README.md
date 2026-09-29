@@ -13,7 +13,7 @@
 
 ---
 
-## 👨‍💻 Sobre mí
+## 👨‍‍💻 Sobre mí
 
 Soy **Ingeniero Eléctrico** con más de 13 años de experiencia en infraestructura y redes MT/BT, especializado en **Gerencia de Proyectos** y **Ciencia de Datos**. Aplico Machine Learning, desarrollo web en Python, analítica avanzada e ingeniería de datos a la movilidad eléctrica, la eficiencia energética y la optimización operacional.
 
@@ -26,34 +26,42 @@ Transformo grandes volúmenes de información técnica, operacionales y de telem
 ## 🚀 Proyectos Destacados y Portafolio
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<h3>🏥 Gestión Salud V2 - Greenmovil</h3>
-<p>Sistema web profesional para el control, seguimiento de historias clínicas y diagnósticos DX del personal.</p>
-<p><b>Stack:</b> Python 3.11+, Django 4.x, SQLite, HTML5/CSS3, Git</p>
-<a href="https://github.com/andersonsarmientoBI/gestion_salud_v2">👉 Ver Repositorio</a>
-</td>
-<td width="50%" valign="top">
-<h3>🤖 Constructor CV (Agente de IA)</h3>
-<p>Aplicación local en Python que automatiza y adapta hojas de vida en PDF a ofertas laborales específicas utilizando modelos LLM.</p>
-<p><b>Stack:</b> Python, Ollama (Llama 3), ReportLab, JSON, IA Generativa</p>
-<a href="https://github.com/anderson-sarmiento-briceno/constructor-CV">👉 Ver Repositorio</a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>📂 Mi Portafolio Principal (Data Science & ML)</h3>
-<p>Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y apuestas deportivas.</p>
-<p><b>Stack:</b> Python, Scikit-Learn, Pandas, Jupyter, Machine Learning</p>
-<a href="https://github.com/anderson-sarmiento-briceno/mi-portafolio">👉 Explorar Notebooks</a>
-</td>
-<td width="50%" valign="top">
-<h3>⚡ Línea Base Energética - Autobuses Eléctricos (ISO 50001)</h3>
-<p>Construcción de la Línea Base Energética (LBEN) para flota de autobuses eléctricos. Modelos de regresión lineal, definición de metas de ahorro Moderada y Ambiciosa, y análisis de consumo energético conforme a ISO 50001.</p>
-<p><b>Stack:</b> Python, Pandas, Scikit-learn, PostgreSQL, Matplotlib, Seaborn, Jupyter</p>
-<a href="https://github.com/anderson-sarmiento-briceno/lben-buses-electricos-iso50001">👉 Ver Repositorio</a>
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📍 Consumo en Reposo (Velocidad 0) – Geocercas PIR | ISO 50001</h3>
+      <p>Pipeline de ETL de alto rendimiento y generación automatizada de informes ejecutivos en PDF para el diagnóstico de desperdicio energético en reposo dentro de geocercas KML.</p>
+      <p><b>Stack:</b> Python, Polars, ReportLab, Matplotlib/Seaborn, KML, Parquet, ETL</p>
+      <a href="https://github.com/anderson-sarmiento-briceno/informe-consumo-reposo-pir-iso50001">👉 Ver Repositorio</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏥 Gestión Salud V2 - Greenmovil</h3>
+      <p>Sistema web profesional para el control, seguimiento e importación masiva (+3,800 registros) de historias clínicas y diagnósticos DX del personal.</p>
+      <p><b>Stack:</b> Python 3.11+, Django 4.x, SQLite, HTML5/CSS3, Git</p>
+      <a href="https://github.com/andersonsarmientoBI/gestion_salud_v2">👉 Ver Repositorio</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 Constructor CV (Agente de IA)</h3>
+      <p>Aplicación local en Python que automatiza y adapta hojas de vida en PDF a ofertas laborales específicas utilizando modelos LLM.</p>
+      <p><b>Stack:</b> Python, Ollama (Llama 3), ReportLab, JSON, IA Generativa</p>
+      <a href="https://github.com/anderson-sarmiento-briceno/constructor-CV">👉 Ver Repositorio</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📂 Mi Portafolio Principal (Data Science & ML)</h3>
+      <p>Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y apuestas deportivas.</p>
+      <p><b>Stack:</b> Python, Scikit-Learn, Pandas, Jupyter, Machine Learning</p>
+      <a href="https://github.com/anderson-sarmiento-briceno/mi-portafolio">👉 Explorar Notebooks</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" colspan="2" valign="top">
+      <h3>⚡ Línea Base Energética - Autobuses Eléctricos (ISO 50001)</h3>
+      <p>Construcción de la Línea Base Energética (LBEN) para flota de autobuses eléctricos. Modelos de regresión lineal, definición de metas de ahorro Moderada y Ambiciosa, y análisis de consumo energético conforme a ISO 50001.</p>
+      <p><b>Stack:</b> Python, Pandas, Scikit-learn, PostgreSQL, Matplotlib, Seaborn, Jupyter</p>
+      <a href="https://github.com/anderson-sarmiento-briceno/lben-buses-electricos-iso50001">👉 Ver Repositorio</a>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -62,8 +70,9 @@ Transformo grandes volúmenes de información técnica, operacionales y de telem
 
 | Área | Métricas e Impacto Clave |
 |---|---|
+| **Telemetría & Eficiencia Energética** | ⚡ **Pipeline ETL automatizado** con Polars/ReportLab para detección de consumo ineficiente en reposo (ISO 50001)[cite: 7] |
 | **Sistemas Web & Datos** | 🏥 **+3,800 registros** procesados e importados masivamente para gestión clínica en Django[cite: 7] |
-| **Telemetría & Energía** | ⚡ **-80% tiempo** en informes de consumo \| **+28% precisión** en proyecciones (ISO 50001) |
+| **Optimización Operacional** | 🚌 **-80% tiempo** en informes de consumo \| **+28% precisión** en proyecciones energéticas |
 | **Seguridad en Obras (HSEQ)** | 🛡️ **-40% accidentes** mediante modelos predictivos de riesgo en redes eléctricas |
 | **Monitoreo & Diagnóstico** | 🚨 **-55% tiempo** en detección de anomalías eléctricas (armónicos) con Python + AWS |
 | **Automatización & IA** | 💬 **+35% conversión** en ventas con Chatbots y **-70% tiempo** en integración de datos |
@@ -75,27 +84,27 @@ Transformo grandes volúmenes de información técnica, operacionales y de telem
 
 <table>
   <tr>
+    <td width="25%" valign="top"><b>Data Engineering & ETL</b></td>
+    <td width="75%">
+      <code>Polars</code> <code>Pandas</code> <code>Parquet</code> <code>Pipelines ETL</code> <code>Apache Spark</code> <code>PostgreSQL</code> <code>Geocercas KML</code> <code>ReportLab</code>
+    </td>
+  </tr>
+  <tr>
     <td width="25%" valign="top"><b>Backend & Web Dev</b></td>
     <td width="75%">
-      <code>Python 3.11+</code> <code>Django 4.x</code> <code>Flask</code> <code>APIs REST</code> <code>HTML5 / CSS3</code> <code>SQLite</code> <code>PostgreSQL</code>
+      <code>Python 3.11+</code> <code>Django 4.x</code> <code>Flask</code> <code>APIs REST</code> <code>HTML5 / CSS3</code> <code>SQLite</code>
     </td>
   </tr>
   <tr>
     <td width="25%" valign="top"><b>Data Science & IA</b></td>
     <td width="75%">
-      <code>Pandas</code> <code>NumPy</code> <code>Scikit-learn</code> <code>Statsmodels</code> <code>Ollama</code> <code>Hugging Face</code> <code>OpenAI API</code> <code>Streamlit</code>
+      <code>Scikit-learn</code> <code>Statsmodels</code> <code>NumPy</code> <code>Matplotlib / Seaborn</code> <code>Ollama</code> <code>Hugging Face</code> <code>OpenAI API</code> <code>Streamlit</code>
     </td>
   </tr>
   <tr>
-    <td width="25%" valign="top"><b>Data Engineering & BI</b></td>
+    <td width="25%" valign="top"><b>Business Intelligence & Tools</b></td>
     <td width="75%">
-      <code>Apache Spark</code> <code>Parquet</code> <code>Pipelines ETL</code> <code>Power BI (DAX)</code> <code>Tableau</code> <code>Web Scraping</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%" valign="top"><b>Cloud & Dev Tools</b></td>
-    <td width="75%">
-      <code>AWS (Lambda, S3)</code> <code>Docker</code> <code>Git / GitHub</code> <code>GeoJSON</code> <code>VS Code</code>
+      <code>Power BI (DAX)</code> <code>Tableau</code> <code>AWS (Lambda, S3)</code> <code>Docker</code> <code>Git / GitHub</code> <code>VS Code</code>
     </td>
   </tr>
   <tr>
@@ -112,7 +121,7 @@ Transformo grandes volúmenes de información técnica, operacionales y de telem
 
 ```text
 2025 - Presente  | Científico de Datos & Desarrollador @ Green Movil
-                 └─ Desarrollo del sistema Gestión Salud V2 (Django), modelos predictivos de energía y telemetría ISO 50001.
+                 └─ Pipeline ETL de consumo en reposo (Polars/ReportLab), Gestión Salud V2 (Django), telemetría e ISO 50001.
 
 2023 - 2025      | Científico de Datos & Automatización @ Consultor Freelance
                  └─ Agentes de IA, Chatbots (WhatsApp API), Trading Bots (MT5) y pipelines ETL.
