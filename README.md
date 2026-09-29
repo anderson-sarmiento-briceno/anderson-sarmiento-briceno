@@ -29,7 +29,7 @@ Transformo grandes volúmenes de información técnica, operacionales y de telem
   <tr>
     <td width="50%" valign="top">
       <h3>🏥 Gestión Salud V2 - Greenmovil</h3>
-      <p>Sistema web profesional para el control, seguimiento e importación masiva (+3,800 registros) de historias clínicas y diagnósticos DX del personal.</p>
+      <p>Sistema web profesional para el control, seguimiento de historias clínicas y diagnósticos DX del personal.</p>
       <p><b>Stack:</b> Python 3.11+, Django 4.x, SQLite, HTML5/CSS3, Git</p>
       <a href="https://github.com/andersonsarmientoBI/gestion_salud_v2">👉 Ver Repositorio</a>
     </td>
