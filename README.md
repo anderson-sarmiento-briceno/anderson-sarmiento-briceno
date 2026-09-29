@@ -26,34 +26,34 @@ Transformo grandes volúmenes de información técnica, operacionales y de telem
 ## 🚀 Proyectos Destacados y Portafolio
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏥 Gestión Salud V2 - Greenmovil</h3>
-      <p>Sistema web profesional para el control, seguimiento de historias clínicas y diagnósticos DX del personal.</p>
-      <p><b>Stack:</b> Python 3.11+, Django 4.x, SQLite, HTML5/CSS3, Git</p>
-      <a href="https://github.com/andersonsarmientoBI/gestion_salud_v2">👉 Ver Repositorio</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤖 Constructor CV (Agente de IA)</h3>
-      <p>Aplicación local en Python que automatiza y adapta hojas de vida en PDF a ofertas laborales específicas utilizando modelos LLM.</p>
-      <p><b>Stack:</b> Python, Ollama (Llama 3), ReportLab, JSON, IA Generativa</p>
-      <a href="https://github.com/anderson-sarmiento-briceno/constructor-CV">👉 Ver Repositorio</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📂 Mi Portafolio Principal (Data Science & ML)</h3>
-      <p>Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y apuestas deportivas.</p>
-      <p><b>Stack:</b> Python, Scikit-Learn, Pandas, Jupyter, Machine Learning</p>
-      <a href="https://github.com/anderson-sarmiento-briceno/mi-portafolio">👉 Explorar Notebooks</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Eficiencia Energética & Telemetría (ISO 50001)</h3>
-      <p>Pipelines ETL y modelos de regresión OLS logarítmica para análisis de consumo energético y desgaste en flotas de buses eléctricos.</p>
-      <p><b>Stack:</b> Python, PostgreSQL, Parquet, Power BI, Statsmodels</p>
-      <a href="https://github.com/anderson-sarmiento-briceno">👉 Ver Detalles en Perfil</a>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🏥 Gestión Salud V2 - Greenmovil</h3>
+<p>Sistema web profesional para el control, seguimiento de historias clínicas y diagnósticos DX del personal.</p>
+<p><b>Stack:</b> Python 3.11+, Django 4.x, SQLite, HTML5/CSS3, Git</p>
+<a href="https://github.com/andersonsarmientoBI/gestion_salud_v2">👉 Ver Repositorio</a>
+</td>
+<td width="50%" valign="top">
+<h3>🤖 Constructor CV (Agente de IA)</h3>
+<p>Aplicación local en Python que automatiza y adapta hojas de vida en PDF a ofertas laborales específicas utilizando modelos LLM.</p>
+<p><b>Stack:</b> Python, Ollama (Llama 3), ReportLab, JSON, IA Generativa</p>
+<a href="https://github.com/anderson-sarmiento-briceno/constructor-CV">👉 Ver Repositorio</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>📂 Mi Portafolio Principal (Data Science & ML)</h3>
+<p>Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y apuestas deportivas.</p>
+<p><b>Stack:</b> Python, Scikit-Learn, Pandas, Jupyter, Machine Learning</p>
+<a href="https://github.com/anderson-sarmiento-briceno/mi-portafolio">👉 Explorar Notebooks</a>
+</td>
+<td width="50%" valign="top">
+<h3>⚡ Línea Base Energética - Autobuses Eléctricos (ISO 50001)</h3>
+<p>Construcción de la Línea Base Energética (LBEN) para flota de autobuses eléctricos. Modelos de regresión lineal, definición de metas de ahorro Moderada y Ambiciosa, y análisis de consumo energético conforme a ISO 50001.</p>
+<p><b>Stack:</b> Python, Pandas, Scikit-learn, PostgreSQL, Matplotlib, Seaborn, Jupyter</p>
+<a href="https://github.com/anderson-sarmiento-briceno/lben-buses-electricos-iso50001">👉 Ver Repositorio</a>
+</td>
+</tr>
 </table>
 
 ---
