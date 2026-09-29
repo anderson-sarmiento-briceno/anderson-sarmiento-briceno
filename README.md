@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Imagen generada por Géminis_m9ugsjm9ugsjm9ugs.png" alt="Portada Anderson Sarmiento Briceño" width="100%">
+  <img src="Gemini_Generated_Image_m9ugsjm9ugsjm9ug.jpg" alt="Portada Anderson Sarmiento Briceño" width="100%">
 </p>
 # ⚡ Anderson Sarmiento Briceño
 
