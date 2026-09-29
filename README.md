@@ -5,7 +5,7 @@
 # ⚡ Anderson Sarmiento Briceño
 ### Ingeniero Eléctrico | Científico de Datos | Esp. Gerencia de Proyectos
 
-**Data Science · Machine Learning · Data Engineering · Business Intelligence · Smart Grids**
+**Data Science · Machine Learning · Data Engineering · Full-Stack Python · Business Intelligence**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-sarmiento-briceno/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andersarb@gmail.com)
@@ -15,11 +15,11 @@
 
 ## 👨‍💻 Sobre mí
 
-Soy **Ingeniero Eléctrico** con más de 13 años de experiencia en infraestructura y redes MT/BT, especializado en **Gerencia de Proyectos** y **Ciencia de Datos**. Aplico Machine Learning, analítica avanzada e ingeniería de datos a la movilidad eléctrica, la eficiencia energética y la optimización de operaciones.
+Soy **Ingeniero Eléctrico** con más de 13 años de experiencia en infraestructura y redes MT/BT, especializado en **Gerencia de Proyectos** y **Ciencia de Datos**. Aplico Machine Learning, desarrollo web en Python, analítica avanzada e ingeniería de datos a la movilidad eléctrica, la eficiencia energética y la optimización operacional.
 
-Transformo grandes volúmenes de información técnica y de telemetría en **soluciones automatizadas y modelos predictivos de alto impacto**.
+Transformo grandes volúmenes de información técnica, operacionales y de telemetría en **aplicaciones robustas, procesos automatizados y modelos predictivos de alto impacto**.
 
-> 💡 **Fórmula de valor:** *Ingeniería Eléctrica + Data Science + IA = Soluciones eficientes y decisiones basadas en datos.*
+> 💡 **Fórmula de valor:** *Ingeniería Eléctrica + Data Science + Software & IA = Soluciones eficientes y decisiones basadas en datos.*
 
 ---
 
@@ -28,10 +28,10 @@ Transformo grandes volúmenes de información técnica y de telemetría en **sol
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📂 Mi Portafolio Principal (Data Science & ML)</h3>
-      <p>Cuadernos de Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y modelos deportivos.</p>
-      <p><b>Stack:</b> Python, Scikit-Learn, Pandas, Jupyter, Machine Learning</p>
-      <a href="https://github.com/anderson-sarmiento-briceno/mi-portafolio">👉 Explorar Portafolio Notebooks</a>
+      <h3>🏥 Gestión Salud V2 - Greenmovil</h3>
+      <p>Sistema web profesional para el control, seguimiento e importación masiva (+3,800 registros) de historias clínicas y diagnósticos DX del personal.</p>
+      <p><b>Stack:</b> Python 3.11+, Django 4.x, SQLite, HTML5/CSS3, Git</p>
+      <a href="https://github.com/andersonsarmientoBI/gestion_salud_v2">👉 Ver Repositorio</a>
     </td>
     <td width="50%" valign="top">
       <h3>🤖 Constructor CV (Agente de IA)</h3>
@@ -42,15 +42,15 @@ Transformo grandes volúmenes de información técnica y de telemetría en **sol
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚌 Eficiencia Energética & Telemetría ISO 50001</h3>
-      <p>Pipelines ETL y modelos de regresión OLS logarítmica para análisis de consumo energético y desgaste en flotas de buses eléctricos.</p>
-      <p><b>Stack:</b> Python, PostgreSQL, Parquet, Power BI, Statsmodels</p>
-      <a href="https://github.com/anderson-sarmiento-briceno/gestion_salud_v2">👉 Ver Repositorio / Proyecto</a>
+      <h3>📂 Mi Portafolio Principal (Data Science & ML)</h3>
+      <p>Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y apuestas deportivas.</p>
+      <p><b>Stack:</b> Python, Scikit-Learn, Pandas, Jupyter, Machine Learning</p>
+      <a href="https://github.com/anderson-sarmiento-briceno/mi-portafolio">👉 Explorar Notebooks</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🗺️ Analizador Geoespacial de Rutas SITP</h3>
-      <p>Herramienta interactiva para análisis comparativo de demanda y distribución de pasajeros origen-destino por localidad.</p>
-      <p><b>Stack:</b> Python, Streamlit, GeoJSON, Pandas, GeoPandas</p>
+      <h3>⚡ Eficiencia Energética & Telemetría (ISO 50001)</h3>
+      <p>Pipelines ETL y modelos de regresión OLS logarítmica para análisis de consumo energético y desgaste en flotas de buses eléctricos.</p>
+      <p><b>Stack:</b> Python, PostgreSQL, Parquet, Power BI, Statsmodels</p>
       <a href="https://github.com/anderson-sarmiento-briceno">👉 Ver Detalles en Perfil</a>
     </td>
   </tr>
@@ -62,6 +62,7 @@ Transformo grandes volúmenes de información técnica y de telemetría en **sol
 
 | Área | Métricas e Impacto Clave |
 |---|---|
+| **Sistemas Web & Datos** | 🏥 **+3,800 registros** procesados e importados masivamente para gestión clínica en Django[cite: 7] |
 | **Telemetría & Energía** | ⚡ **-80% tiempo** en informes de consumo \| **+28% precisión** en proyecciones (ISO 50001) |
 | **Seguridad en Obras (HSEQ)** | 🛡️ **-40% accidentes** mediante modelos predictivos de riesgo en redes eléctricas |
 | **Monitoreo & Diagnóstico** | 🚨 **-55% tiempo** en detección de anomalías eléctricas (armónicos) con Python + AWS |
@@ -74,21 +75,27 @@ Transformo grandes volúmenes de información técnica y de telemetría en **sol
 
 <table>
   <tr>
+    <td width="25%" valign="top"><b>Backend & Web Dev</b></td>
+    <td width="75%">
+      <code>Python 3.11+</code> <code>Django 4.x</code> <code>Flask</code> <code>APIs REST</code> <code>HTML5 / CSS3</code> <code>SQLite</code> <code>PostgreSQL</code>
+    </td>
+  </tr>
+  <tr>
     <td width="25%" valign="top"><b>Data Science & IA</b></td>
     <td width="75%">
-      <code>Python</code> <code>Pandas</code> <code>NumPy</code> <code>Scikit-learn</code> <code>Statsmodels</code> <code>Ollama</code> <code>Hugging Face</code> <code>OpenAI API</code> <code>Streamlit</code>
+      <code>Pandas</code> <code>NumPy</code> <code>Scikit-learn</code> <code>Statsmodels</code> <code>Ollama</code> <code>Hugging Face</code> <code>OpenAI API</code> <code>Streamlit</code>
     </td>
   </tr>
   <tr>
     <td width="25%" valign="top"><b>Data Engineering & BI</b></td>
     <td width="75%">
-      <code>PostgreSQL</code> <code>SQL</code> <code>Apache Spark</code> <code>Parquet</code> <code>Pipelines ETL</code> <code>Power BI (DAX)</code> <code>Tableau</code> <code>APIs Rest</code>
+      <code>Apache Spark</code> <code>Parquet</code> <code>Pipelines ETL</code> <code>Power BI (DAX)</code> <code>Tableau</code> <code>Web Scraping</code>
     </td>
   </tr>
   <tr>
     <td width="25%" valign="top"><b>Cloud & Dev Tools</b></td>
     <td width="75%">
-      <code>AWS (Lambda, S3)</code> <code>Docker</code> <code>Git</code> <code>GitHub</code> <code>Flask</code> <code>GeoJSON</code> <code>VS Code</code>
+      <code>AWS (Lambda, S3)</code> <code>Docker</code> <code>Git / GitHub</code> <code>GeoJSON</code> <code>VS Code</code>
     </td>
   </tr>
   <tr>
@@ -104,8 +111,8 @@ Transformo grandes volúmenes de información técnica y de telemetría en **sol
 ## 💼 Experiencia Relevante
 
 ```text
-2025 - Presente  | Científico de Datos @ Green Movil
-                 └─ Modelos predictivos de energía, telemetría ISO 50001 y análisis geoespacial SITP.
+2025 - Presente  | Científico de Datos & Desarrollador @ Green Movil
+                 └─ Desarrollo del sistema Gestión Salud V2 (Django), modelos predictivos de energía y telemetría ISO 50001.
 
 2023 - 2025      | Científico de Datos & Automatización @ Consultor Freelance
                  └─ Agentes de IA, Chatbots (WhatsApp API), Trading Bots (MT5) y pipelines ETL.
