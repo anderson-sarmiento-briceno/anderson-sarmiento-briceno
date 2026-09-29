@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="Imagen generada por Géminis_m9ugsjm9ugsjm9ugs.png" alt="Portada Anderson Sarmiento Briceño" width="100%">
+</p>
 # ⚡ Anderson Sarmiento Briceño
 
 ### Ingeniero Eléctrico | Científico de Datos | Esp. Gerencia de Proyectos
