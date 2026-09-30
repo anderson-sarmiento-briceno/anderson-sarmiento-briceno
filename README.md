@@ -28,6 +28,16 @@ Transformo grandes volúmenes de información técnica, operacionales y de telem
 <tr>
 <td width="50%" valign="top">
 
+### 🏗️ Framework ETL Prototipo - Data Warehouse
+Arquitectura modular de pipelines ETL para transporte masivo y flotas. Ingesta desde heterogéneas fuentes (CMMS, ERP, Telemetría, APIs, Web Scraping), modelado dimensional en estrella, almacenamiento en Delta Lake y notificaciones automatizadas.
+
+`Python` `R` `Delta Lake` `DuckDB` `PostgreSQL` `Polars` `SQLAlchemy` `ETL`
+
+<a href="https://github.com/anderson-sarmiento-briceno/etl-dw-prototype">👉 Ver Repositorio</a>
+
+</td>
+<td width="50%" valign="top">
+
 ### 🔋 Estado de Salud de Baterías (SOH)
 Análisis completo de Ciencia de Datos sobre los factores que afectan el **SOH** de baterías en buses eléctricos. Limpieza de 172k+ registros, feature engineering, modelo XGBoost + SHAP y recomendaciones de mantenimiento predictivo.
 
@@ -36,6 +46,9 @@ Análisis completo de Ciencia de Datos sobre los factores que afectan el **SOH**
 <a href="https://github.com/anderson-sarmiento-briceno/SOH">👉 Ver Repositorio</a>
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 📍 Consumo en Reposo (Velocidad 0) – Geocercas PIR | ISO 50001
@@ -46,9 +59,6 @@ Pipeline de ETL de alto rendimiento y generación automatizada de informes ejecu
 <a href="https://github.com/anderson-sarmiento-briceno/informe-consumo-reposo-pir-iso50001">👉 Ver Repositorio</a>
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 🏥 Gestión Salud V2 - Greenmovil
@@ -59,6 +69,9 @@ Sistema web profesional para el control, seguimiento e importación masiva (+3,8
 <a href="https://github.com/andersonsarmientoBI/gestion_salud_v2">👉 Ver Repositorio</a>
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🤖 Constructor CV (Agente de IA)
@@ -69,9 +82,6 @@ Aplicación local en Python que automatiza y adapta hojas de vida en PDF a ofert
 <a href="https://github.com/anderson-sarmiento-briceno/constructor-CV">👉 Ver Repositorio</a>
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### ⚡ Línea Base Energética - Autobuses Eléctricos (ISO 50001)
@@ -82,7 +92,10 @@ Construcción de la Línea Base Energética (LBEN) para flota de autobuses eléc
 <a href="https://github.com/anderson-sarmiento-briceno/lben-buses-electricos-iso50001">👉 Ver Repositorio</a>
 
 </td>
-<td width="50%" valign="top">
+</tr>
+
+<tr>
+<td width="50%" valign="top" colspan="2">
 
 ### 📂 Mi Portafolio Principal (Data Science & ML)
 Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y apuestas deportivas.
@@ -95,20 +108,20 @@ Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), model
 </tr>
 </table>
 
-
 ---
 
 ## 📈 Impacto Promedio en Resultados
 
 | Área                                   | Métricas e Impacto Clave                                                                 |
 |----------------------------------------|------------------------------------------------------------------------------------------|
+| **Ingeniería de Datos & Data Warehouse**| 🏗️ Diseño y construcción de pipelines ETL integrando +50 flujos heterogéneos en Delta Lake |
 | **Telemetría & Eficiencia Energética** | ⚡ Pipeline ETL automatizado con Polars/ReportLab para detección de consumo ineficiente (ISO 50001) |
 | **Salud de Baterías (SOH)**            | 🔋 Identificación de umbrales críticos de caída semanal del SOH y drivers de degradación |
 | **Sistemas Web & Datos**               | 🏥 +3,800 registros procesados e importados masivamente para gestión clínica en Django   |
-| **Optimización Operacional**           | 🚌 -80% tiempo en informes de consumo · +28% precisión en proyecciones energéticas       |
-| **Seguridad en Obras (HSEQ)**          | 🛡️ -40% accidentes mediante modelos predictivos de riesgo en redes eléctricas            |
+| **Optimización Operacional**           | 🚌 -80% tiempo en informes de consumo · +28% precisión en proyecciones energéticas        |
+| **Seguridad en Obras (HSEQ)**          | 🛡️ -40% accidentes mediante modelos predictivos de riesgo en redes eléctricas             |
 | **Monitoreo & Diagnóstico**            | 🚨 -55% tiempo en detección de anomalías eléctricas (armónicos) con Python + AWS         |
-| **Automatización & IA**                | 💬 +35% conversión en ventas con Chatbots · -70% tiempo en integración de datos          |
+| **Automatización & IA**                | 💬 +35% conversión en ventas con Chatbots · -70% tiempo en integración de datos           |
 | **Trading & Algoritmos**               | 📊 82% de precisión en señales de trading mediante árboles de regresión (MetaTrader 5)   |
 
 ---
@@ -119,13 +132,13 @@ Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), model
 <tr>
 <td width="25%" valign="top"><b>Data Engineering & ETL</b></td>
 <td width="75%">
-<code>Polars</code> <code>Pandas</code> <code>Parquet</code> <code>Pipelines ETL</code> <code>Apache Spark</code> <code>PostgreSQL</code> <code>Geocercas KML</code> <code>ReportLab</code>
+<code>Delta Lake</code> <code>DuckDB</code> <code>Polars</code> <code>Pandas</code> <code>Parquet</code> <code>Pipelines ETL</code> <code>Apache Spark</code> <code>PostgreSQL</code> <code>Geocercas KML</code> <code>ReportLab</code>
 </td>
 </tr>
 <tr>
 <td width="25%" valign="top"><b>Backend & Web Dev</b></td>
 <td width="75%">
-<code>Python 3.11+</code> <code>Django 4.x</code> <code>Flask</code> <code>APIs REST</code> <code>HTML5 / CSS3</code> <code>SQLite</code>
+<code>Python 3.11+</code> <code>Django 4.x</code> <code>Flask</code> <code>APIs REST / SOAP</code> <code>HTML5 / CSS3</code> <code>SQLite</code>
 </td>
 </tr>
 <tr>
@@ -147,6 +160,7 @@ Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), model
 </td>
 </tr>
 </table>
+
 
 ---
 
