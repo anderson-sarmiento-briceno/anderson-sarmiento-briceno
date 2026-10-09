@@ -28,7 +28,17 @@
 <table>
   <tr>
     <td width="100%" valign="top" colspan="2">
-      <h3>🚍 Comparador de Rutas de Transporte Urbano &nbsp;<img src="https://img.shields.io/badge/NUEVO-FF4B4B?style=flat-square" alt="Nuevo"></h3>
+      <h3>🏍️ Lector de Placas desde Casco de Moto (ALPR) &nbsp;<img src="https://img.shields.io/badge/NUEVO-FF4B4B?style=flat-square" alt="Nuevo"></h3>
+      <p>Sistema de reconocimiento automático de placas vehiculares pensado para una cámara montada en el casco de un motociclista. Detecta las placas con YOLOv11 nano, las lee con EasyOCR (preprocesado con CLAHE), valida el formato colombiano con corrección de errores del OCR según la posición y confirma cada lectura por <b>votación temporal</b> entre frames. Si la placa coincide con la base de datos de placas de interés, genera una <b>alerta</b> en consola y en el video anotado. Prototipo 100% local, con hoja de ruta hacia cámara en vivo y dispositivos embebidos (Raspberry Pi / Jetson).</p>
+      <p><code>Python</code> <code>YOLOv11</code> <code>Ultralytics</code> <code>EasyOCR</code> <code>OpenCV</code> <code>SQLite</code> <code>YAML</code> <code>Pytest</code> <code>Visión por Computador</code></p>
+      <p>
+        <a href="https://github.com/anderson-sarmiento-briceno/Detector-de-placas"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" colspan="2">
+      <h3>🚍 Comparador de Rutas de Transporte Urbano</h3>
       <p>Aplicación web de análisis geoespacial para planeación de transporte. Mide cuánto se superponen las rutas de transporte urbano entre sí y frente a los proyectos de infraestructura de la ciudad (metro, tren regional y nuevas troncales), y muestra en qué tramo del recorrido suben los pasajeros.</p>
       <p><code>Python</code> <code>Streamlit</code> <code>GeoPandas</code> <code>Shapely</code> <code>Folium</code> <code>Plotly</code> <code>Pandas</code> <code>PyArrow</code> <code>GeoJSON</code> <code>OpenStreetMap</code></p>
       <p>
