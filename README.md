@@ -13,88 +13,87 @@
   </p>
 </div>
 
-<h2>👨‍💻 Sobre mí</h2>
+<h2>Sobre mí</h2>
 
 <p>Soy <b>Ingeniero Eléctrico y Científico de Datos</b>, especialista en <b>Gerencia de Proyectos</b>, con más de 15 años de experiencia: 13 de ellos en infraestructura y redes MT/BT en Enel, y los últimos años dedicados a la ciencia de datos, la ingeniería de datos y la inteligencia artificial en movilidad eléctrica, energía y automatización de procesos.</p>
 
 <p>Hoy construyo:</p>
 <ul>
-  <li>🤖 <b>Agentes de IA</b> con modelos de lenguaje (API de Claude y OpenAI) conectados a sistemas reales como Slack, WhatsApp y bases de datos. El modelo conversa y elige la herramienta; el código valida, controla el costo y pide confirmación humana cuando hace falta.</li>
-  <li>🏗️ <b>Plataformas y pipelines de datos</b> con calidad, seguridad y trazabilidad: PostgreSQL, Delta Lake, DuckDB, Kafka y cifrado de datos personales.</li>
-  <li>🔋 <b>Modelos predictivos</b> para mantenimiento y eficiencia energética, con XGBoost, SHAP y regresión bajo la norma ISO 50001.</li>
-  <li>👁️ <b>Visión por computadora</b> con YOLO para detectar, seguir y leer en video.</li>
+  <li><b>Agentes de IA</b> con modelos de lenguaje (API de Claude y OpenAI) conectados a sistemas reales como Slack, WhatsApp y bases de datos. El modelo conversa y elige la herramienta; el código valida, controla el costo y pide confirmación humana cuando hace falta.</li>
+  <li><b>Plataformas y pipelines de datos</b> con calidad, seguridad y trazabilidad: PostgreSQL, Delta Lake, DuckDB, Kafka y cifrado de datos personales.</li>
+  <li><b>Modelos predictivos</b> para mantenimiento y eficiencia energética, con XGBoost, SHAP y regresión bajo la norma ISO 50001.</li>
+  <li><b>Visión por computadora</b> con YOLO para detectar, seguir y leer en video.</li>
 </ul>
 
 <p>Mi base en ingeniería eléctrica me permite entender la operación que hay detrás de los datos y convertirla en soluciones que se usan en el día a día.</p>
 
 <blockquote>
-  <p>💡 <b>Fórmula de valor:</b> <i>Ingeniería Eléctrica + Data Science + IA aplicada = soluciones que llegan a producción y decisiones basadas en datos.</i></p>
+  <p><b>Fórmula de valor:</b> <i>Ingeniería Eléctrica + Data Science + IA aplicada = soluciones que llegan a producción y decisiones basadas en datos.</i></p>
 </blockquote>
 
 <h2>🚀 Proyectos Destacados y Portafolio</h2>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>🧾 Agente de IA para Órdenes de Compra</h3>
       <p>Agente conversacional en Slack para el área de compras. Lee cada solicitud (cotización, correo de aprobación y factura), la valida contra los maestros de proveedores, centros de costo, condiciones de pago e IVA con <b>10 reglas de control</b>, pide <b>confirmación humana</b> en las excepciones y entrega la orden de compra en CSV con su evidencia de aprobación. El modelo solo decide qué herramienta usar; las validaciones son código, con topes de iteraciones y tokens para controlar el costo.</p>
       <p><code>TypeScript</code> <code>Node.js</code> <code>Express</code> <code>Zod</code> <code>API de Claude</code> <code>Function Calling</code> <code>Slack</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/agente-ordenes-compra"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3>💬 Agente de Ventas por WhatsApp con IA</h3>
       <p>Agente que vende por WhatsApp para una tienda de accesorios para moto. Busca los productos en el inventario aunque el cliente no use el nombre exacto (<b>búsqueda semántica</b>), envía fotos y precios, resuelve dudas con la API de Claude y pasa el pedido al asesor, que cierra la venta desde el mismo chat. Corre en <b>AWS Lambda</b> con DynamoDB. El modelo conversa y el código decide: stock, precios y validaciones son reglas, así que nunca inventa productos ni precios.</p>
       <p><code>Python</code> <code>API de Claude</code> <code>OpenAI</code> <code>WhatsApp Cloud API</code> <code>AWS Lambda</code> <code>DynamoDB</code> <code>Flask</code> <code>Google Sheets</code> <code>Pytest</code> <code>Docker</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/agente-ventas-whatsapp-ia"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>🔐 Plataforma de Datos Segura para Consumos de Energía</h3>
       <p>Plataforma de datos para los consumos horarios de fronteras comerciales de energía en Colombia. Lee archivos crudos que llegan en un formato distinto cada mes, los <b>limpia con reglas de calidad</b> y envía a cuarentena los registros con errores, los <b>carga de forma idempotente</b> en PostgreSQL con modelo estrella y <b>protege los datos personales</b> con cifrado AES-256-GCM, roles de menor privilegio y una bitácora de auditoría. Un consumidor de <b>Kafka (Redpanda)</b> vigila las mediciones en tiempo real y emite alertas. Procesa 115.340 filas, está cubierta por 72 pruebas y documenta su modelo de amenazas STRIDE y sus decisiones técnicas.</p>
       <p><code>Python</code> <code>PostgreSQL</code> <code>Kafka / Redpanda</code> <code>Docker Compose</code> <code>Terraform</code> <code>AWS S3 · KMS · IAM</code> <code>Pytest</code> <code>AES-256-GCM</code> <code>Calidad de datos</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/Plataforma-datos-energ-a-segura"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3>🏗️ Framework ETL Prototipo - Data Warehouse</h3>
       <p>Arquitectura modular de pipelines ETL para transporte masivo y flotas. Ingesta desde heterogéneas fuentes (CMMS, ERP, Telemetría, APIs, Web Scraping), modelado dimensional en estrella, almacenamiento en Delta Lake y notificaciones automatizadas.</p>
       <p><code>Python</code> <code>R</code> <code>Delta Lake</code> <code>DuckDB</code> <code>PostgreSQL</code> <code>Polars</code> <code>SQLAlchemy</code> <code>ETL</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/etl-dw-prototype"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
   </tr>
   <tr>
-    <td width="100%" valign="top" colspan="2">
+    <td width="100%" valign="top">
       <h3>🏍️ Lector de Placas desde Casco de Moto (ALPR)</h3>
       <p>Sistema de reconocimiento automático de placas vehiculares pensado para una cámara montada en el casco de un motociclista. Detecta las placas con YOLOv11 nano, las lee con EasyOCR (preprocesado con CLAHE), valida el formato colombiano con corrección de errores del OCR según la posición y confirma cada lectura por <b>votación temporal</b> entre frames. Si la placa coincide con la base de datos de placas de interés, genera una <b>alerta</b> en consola y en el video anotado. Prototipo 100% local, con hoja de ruta hacia cámara en vivo y dispositivos embebidos (Raspberry Pi / Jetson).</p>
       <p><code>Python</code> <code>YOLOv11</code> <code>Ultralytics</code> <code>EasyOCR</code> <code>OpenCV</code> <code>SQLite</code> <code>YAML</code> <code>Pytest</code> <code>Visión por Computador</code></p>
       <p>
         <a href="https://github.com/anderson-sarmiento-briceno/Detector-de-placas"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a>
       </p>
-    
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>👥 Lector de Personas en Video</h3>
       <p>Sistema que detecta, sigue y cuenta personas en video con YOLO y ByteTrack o BoT-SORT: personas en pantalla, personas únicas y entradas y salidas al cruzar una línea definida. Entrega el video anotado y los resultados en CSV y JSON.</p>
       <p><code>Python</code> <code>YOLO</code> <code>ByteTrack</code> <code>OpenCV</code> <code>PyTorch</code> <code>Pandas</code> <code>Pytest</code> <code>Visión por Computador</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/Lector-Personas"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3>🔋 Estado de Salud de Baterías (SOH)</h3>
       <p>Análisis completo de Ciencia de Datos sobre los factores que afectan el <b>SOH</b> de baterías en buses eléctricos. Limpieza de 172k+ registros, feature engineering, modelo XGBoost + SHAP y recomendaciones de mantenimiento predictivo.</p>
       <p><code>Python</code> <code>Pandas</code> <code>NumPy</code> <code>XGBoost</code> <code>SHAP</code> <code>Scikit-learn</code> <code>Matplotlib</code> <code>Seaborn</code> <code>Jupyter</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/SOH"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
   </tr>
   <tr>
-    <td width="100%" valign="top" colspan="2">
+    <td width="100%" valign="top">
       <h3>🚍 Comparador de Rutas de Transporte Urbano</h3>
       <p>Aplicación web de análisis geoespacial para planeación de transporte. Mide cuánto se superponen las rutas de transporte urbano entre sí y frente a los proyectos de infraestructura de la ciudad (metro, tren regional y nuevas troncales), y muestra en qué tramo del recorrido suben los pasajeros.</p>
       <p><code>Python</code> <code>Streamlit</code> <code>GeoPandas</code> <code>Shapely</code> <code>Folium</code> <code>Plotly</code> <code>Pandas</code> <code>PyArrow</code> <code>GeoJSON</code> <code>OpenStreetMap</code></p>
@@ -102,47 +101,45 @@
         <a href="https://comparador-rutas-vj8yq4mjrew7ujxoykq7nd.streamlit.app/"><img src="https://img.shields.io/badge/▶%20Probar%20la%20app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Probar la app"></a>
         <a href="https://github.com/anderson-sarmiento-briceno/comparador-rutas"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a>
       </p>
-    
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>📍 Consumo en Reposo (Velocidad 0) – Geocercas PIR | ISO 50001</h3>
       <p>Pipeline de ETL de alto rendimiento y generación automatizada de informes ejecutivos en PDF para el diagnóstico de desperdicio energético en reposo dentro de geocercas KML.</p>
       <p><code>Python</code> <code>Polars</code> <code>ReportLab</code> <code>Matplotlib</code> <code>Seaborn</code> <code>KML</code> <code>Parquet</code> <code>ETL</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/informe-consumo-reposo-pir-iso50001"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3>⚡ Línea Base Energética - Autobuses Eléctricos (ISO 50001)</h3>
       <p>Construcción de la Línea Base Energética (LBEN) para flota de autobuses eléctricos. Modelos de regresión lineal, definición de metas de ahorro y análisis conforme a ISO 50001.</p>
       <p><code>Python</code> <code>Pandas</code> <code>Scikit-learn</code> <code>PostgreSQL</code> <code>Matplotlib</code> <code>Seaborn</code> <code>Jupyter</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/lben-buses-electricos-iso50001"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3>🤖 Constructor CV (Agente de IA)</h3>
       <p>Aplicación local en Python que automatiza y adapta hojas de vida en PDF a ofertas laborales específicas utilizando modelos LLM.</p>
       <p><code>Python</code> <code>Groq</code> <code>gpt-oss-120b</code> <code>ReportLab</code> <code>JSON</code> <code>IA Generativa</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/constructor-CV"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
-    
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏥 Gestión Salud V2 - Greenmovil</h3>
-      <p>Sistema web profesional para el control, seguimiento e importación masiva (+3,800 registros) de historias clínicas y diagnósticos DX del personal.</p>
-      <p><code>Python 3.11+</code> <code>Django 4.x</code> <code>SQLite</code> <code>HTML5</code> <code>CSS3</code> <code>Git</code></p>
-    
     </td>
   </tr>
   <tr>
-    <td width="100%" valign="top" colspan="2">
+    <td width="100%" valign="top">
+      <h3>🏥 Gestión Salud V2 - Greenmovil</h3>
+      <p>Sistema web profesional para el control, seguimiento e importación masiva (+3,800 registros) de historias clínicas y diagnósticos DX del personal.</p>
+      <p><code>Python 3.11+</code> <code>Django 4.x</code> <code>SQLite</code> <code>HTML5</code> <code>CSS3</code> <code>Git</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3>📂 Mi Portafolio Principal (Data Science &amp; ML)</h3>
       <p>Colección de cuadernos Jupyter con análisis exploratorio de datos (EDA), modelos predictivos, análisis financiero (FOREX) y apuestas deportivas.</p>
       <p><code>Python</code> <code>Scikit-Learn</code> <code>Pandas</code> <code>Jupyter</code> <code>Machine Learning</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/mi-portafolio"><img src="https://img.shields.io/badge/Explorar%20Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Explorar Notebooks"></a></p>
-    
     </td>
   </tr>
 </table>
