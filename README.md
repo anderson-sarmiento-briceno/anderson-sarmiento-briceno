@@ -15,7 +15,7 @@
 
 <h2>👨‍💻 Sobre mí</h2>
 
-<p>Soy <b>Ingeniero Eléctrico</b> con más de 13 años de experiencia en infraestructura y redes MT/BT, especializado en <b>Gerencia de Proyectos</b> y <b>Ciencia de Datos</b>. Aplico Machine Learning, desarrollo web en Python, analítica avanzada e ingeniería de datos a la movilidad eléctrica, la eficiencia energética y la optimización operacional.</p>
+<p>Soy <b>Ingeniero Eléctrico</b> con más de 15 años de experiencia, 13 de ellos en infraestructura y redes MT/BT en Enel, especializado en <b>Gerencia de Proyectos</b> y <b>Ciencia de Datos</b>. Aplico Machine Learning, desarrollo web en Python, analítica avanzada e ingeniería de datos a la movilidad eléctrica, la eficiencia energética y la optimización operacional.</p>
 
 <p>Transformo grandes volúmenes de información técnica, operacionales y de telemetría en <b>aplicaciones robustas, procesos automatizados y modelos predictivos de alto impacto</b>.</p>
 
@@ -34,6 +34,28 @@
       <p>
         <a href="https://github.com/anderson-sarmiento-briceno/Detector-de-placas"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a>
       </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧾 Agente de IA para Órdenes de Compra &nbsp;<img src="https://img.shields.io/badge/NUEVO-FF4B4B?style=flat-square" alt="Nuevo"></h3>
+      <p>Agente conversacional en Slack para el área de compras. Lee cada solicitud (cotización, correo de aprobación y factura), la valida contra los maestros de proveedores, centros de costo, condiciones de pago e IVA con <b>10 reglas de control</b>, pide <b>confirmación humana</b> en las excepciones y entrega la orden de compra en CSV con su evidencia de aprobación. El modelo solo decide qué herramienta usar; las validaciones son código, con topes de iteraciones y tokens para controlar el costo.</p>
+      <p><code>TypeScript</code> <code>Node.js</code> <code>Express</code> <code>Zod</code> <code>API de Claude</code> <code>Function Calling</code> <code>Slack</code></p>
+      <p><a href="https://github.com/anderson-sarmiento-briceno/agente-ordenes-compra"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💬 Agente de Ventas por WhatsApp con IA &nbsp;<img src="https://img.shields.io/badge/NUEVO-FF4B4B?style=flat-square" alt="Nuevo"></h3>
+      <p>Agente que vende por WhatsApp para una tienda de accesorios para moto. Busca los productos en el inventario aunque el cliente no use el nombre exacto (<b>búsqueda semántica</b>), envía fotos y precios, resuelve dudas con la API de Claude y pasa el pedido al asesor, que cierra la venta desde el mismo chat. Corre en <b>AWS Lambda</b> con DynamoDB. El modelo conversa y el código decide: stock, precios y validaciones son reglas, así que nunca inventa productos ni precios.</p>
+      <p><code>Python</code> <code>API de Claude</code> <code>OpenAI</code> <code>WhatsApp Cloud API</code> <code>AWS Lambda</code> <code>DynamoDB</code> <code>Flask</code> <code>Google Sheets</code> <code>Pytest</code> <code>Docker</code></p>
+      <p><a href="https://github.com/anderson-sarmiento-briceno/agente-ventas-whatsapp-ia"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" colspan="2">
+      <h3>👥 Lector de Personas en Video &nbsp;<img src="https://img.shields.io/badge/NUEVO-FF4B4B?style=flat-square" alt="Nuevo"></h3>
+      <p>Sistema que detecta, sigue y cuenta personas en video con YOLO y ByteTrack o BoT-SORT: personas en pantalla, personas únicas y entradas y salidas al cruzar una línea definida. Entrega el video anotado y los resultados en CSV y JSON.</p>
+      <p><code>Python</code> <code>YOLO</code> <code>ByteTrack</code> <code>OpenCV</code> <code>PyTorch</code> <code>Pandas</code> <code>Pytest</code> <code>Visión por Computador</code></p>
+      <p><a href="https://github.com/anderson-sarmiento-briceno/Lector-Personas"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
     </td>
   </tr>
   <tr>
@@ -72,14 +94,13 @@
       <h3>🏥 Gestión Salud V2 - Greenmovil</h3>
       <p>Sistema web profesional para el control, seguimiento e importación masiva (+3,800 registros) de historias clínicas y diagnósticos DX del personal.</p>
       <p><code>Python 3.11+</code> <code>Django 4.x</code> <code>SQLite</code> <code>HTML5</code> <code>CSS3</code> <code>Git</code></p>
-      <p><a href="https://github.com/andersonsarmientoBI/gestion_salud_v2"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🤖 Constructor CV (Agente de IA)</h3>
       <p>Aplicación local en Python que automatiza y adapta hojas de vida en PDF a ofertas laborales específicas utilizando modelos LLM.</p>
-      <p><code>Python</code> <code>Ollama</code> <code>Llama 3</code> <code>ReportLab</code> <code>JSON</code> <code>IA Generativa</code></p>
+      <p><code>Python</code> <code>Groq</code> <code>gpt-oss-120b</code> <code>ReportLab</code> <code>JSON</code> <code>IA Generativa</code></p>
       <p><a href="https://github.com/anderson-sarmiento-briceno/constructor-CV"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
     </td>
     <td width="50%" valign="top">
@@ -107,10 +128,10 @@
   <tr><td>⚡ <b>Telemetría &amp; Eficiencia Energética</b></td><td>Pipeline ETL automatizado con Polars/ReportLab para detección de consumo ineficiente (ISO 50001)</td></tr>
   <tr><td>🔋 <b>Salud de Baterías (SOH)</b></td><td>Identificación de umbrales críticos de caída semanal del SOH y drivers de degradación</td></tr>
   <tr><td>🏥 <b>Sistemas Web &amp; Datos</b></td><td><b>+3,800 registros</b> procesados e importados masivamente para gestión clínica en Django</td></tr>
-  <tr><td>🚌 <b>Optimización Operacional</b></td><td><b>-80%</b> tiempo en informes de consumo · <b>+28%</b> precisión en proyecciones energéticas</td></tr>
+  <tr><td>🚌 <b>Optimización Operacional</b></td><td><b>-80%</b> tiempo en informes de consumo · <b>+28%</b> precisión en proyecciones de desgaste de flota</td></tr>
   <tr><td>🛡️ <b>Seguridad en Obras (HSEQ)</b></td><td><b>-40%</b> accidentes mediante modelos predictivos de riesgo en redes eléctricas</td></tr>
   <tr><td>🚨 <b>Monitoreo &amp; Diagnóstico</b></td><td><b>-55%</b> tiempo en detección de anomalías eléctricas (armónicos) con Python + AWS</td></tr>
-  <tr><td>💬 <b>Automatización &amp; IA</b></td><td><b>+35%</b> conversión en ventas con Chatbots · <b>-70%</b> tiempo en integración de datos</td></tr>
+  <tr><td>💬 <b>Automatización &amp; IA</b></td><td><b>+35%</b> conversión en ventas con Chatbots · <b>70%</b> de preguntas frecuentes automatizadas</td></tr>
   <tr><td>📊 <b>Trading &amp; Algoritmos</b></td><td><b>82%</b> de precisión en señales de trading mediante árboles de regresión (MetaTrader 5)</td></tr>
 </table>
 
@@ -200,7 +221,7 @@
 <h2>💼 Experiencia Relevante</h2>
 
 <pre>
-2025 - Presente | Científico de Datos &amp; Desarrollador @ Green Movil
+2025 - 2026 | Científico de Datos &amp; Desarrollador @ Green Movil
 └─ Pipeline ETL de consumo en reposo (Polars/ReportLab), Gestión Salud V2 (Django),
    análisis de SOH de baterías (XGBoost + SHAP) y telemetría ISO 50001.
 
