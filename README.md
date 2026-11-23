@@ -70,6 +70,14 @@
     </td>
   </tr>
   <tr>
+    <td width="100%" valign="top" colspan="2">
+      <h3>🔐 Plataforma de Datos Segura para Consumos de Energía &nbsp;<img src="https://img.shields.io/badge/NUEVO-FF4B4B?style=flat-square" alt="Nuevo"></h3>
+      <p>Plataforma de datos para los consumos horarios de fronteras comerciales de energía en Colombia. Lee archivos crudos que llegan en un formato distinto cada mes, los <b>limpia con reglas de calidad</b> y envía a cuarentena los registros con errores, los <b>carga de forma idempotente</b> en PostgreSQL con modelo estrella y <b>protege los datos personales</b> con cifrado AES-256-GCM, roles de menor privilegio y una bitácora de auditoría. Un consumidor de <b>Kafka (Redpanda)</b> vigila las mediciones en tiempo real y emite alertas. Procesa 115.340 filas, está cubierta por 72 pruebas y documenta su modelo de amenazas STRIDE y sus decisiones técnicas.</p>
+      <p><code>Python</code> <code>PostgreSQL</code> <code>Kafka / Redpanda</code> <code>Docker Compose</code> <code>Terraform</code> <code>AWS S3 · KMS · IAM</code> <code>Pytest</code> <code>AES-256-GCM</code> <code>Calidad de datos</code></p>
+      <p><a href="https://github.com/anderson-sarmiento-briceno/Plataforma-datos-energ-a-segura"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a></p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🏗️ Framework ETL Prototipo - Data Warehouse</h3>
       <p>Arquitectura modular de pipelines ETL para transporte masivo y flotas. Ingesta desde heterogéneas fuentes (CMMS, ERP, Telemetría, APIs, Web Scraping), modelado dimensional en estrella, almacenamiento en Delta Lake y notificaciones automatizadas.</p>
