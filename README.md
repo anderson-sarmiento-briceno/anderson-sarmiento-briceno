@@ -36,6 +36,17 @@
 <table>
   <tr>
     <td width="100%" valign="top">
+      <h3>📋 Agente de IA para Registro como Proveedor</h3>
+      <p>Agente que prepara el registro de una empresa como proveedor ante sus clientes. Lee la solicitud de cada cliente, llena el formulario en <b>Excel, PDF o portal web</b> con el maestro de datos de la empresa, revisa la vigencia de los documentos soporte (vigente, por vencer, vencido o ausente) y arma el paquete para firma con checklist, borrador del correo y trazabilidad. El modelo conversa y elige la herramienta; los valores, las reglas y las validaciones son <b>código determinista</b>, así que nunca inventa un dato. Nada se confirma ni se envía sin la <b>aprobación de la analista</b>, los datos sensibles llegan enmascarados al modelo y sus herramientas se publican como <b>servidor MCP</b> para usarlas desde Claude. Tiene 650 pruebas automatizadas, 9 de 9 evaluaciones con el modelo real y CI en GitHub Actions.</p>
+      <p><code>Python</code> <code>API de Claude</code> <code>MCP</code> <code>FastAPI</code> <code>Pydantic</code> <code>openpyxl</code> <code>fpdf2</code> <code>Pytest</code> <code>Docker</code> <code>Render</code> <code>GitHub Actions</code></p>
+      <p>
+        <a href="https://agente-registro-proveedor-yu72.onrender.com"><img src="https://img.shields.io/badge/▶%20Probar%20la%20demo-2EA44F?style=for-the-badge" alt="Probar la demo"></a>
+        <a href="https://github.com/anderson-sarmiento-briceno/agente-registro-proveedor"><img src="https://img.shields.io/badge/Ver%20Repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ver Repositorio"></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
       <h3>🧾 Agente de IA para Órdenes de Compra</h3>
       <p>Agente conversacional en Slack para el área de compras. Lee cada solicitud (cotización, correo de aprobación y factura), la valida contra los maestros de proveedores, centros de costo, condiciones de pago e IVA con <b>10 reglas de control</b>, pide <b>confirmación humana</b> en las excepciones y entrega la orden de compra en CSV con su evidencia de aprobación. El modelo solo decide qué herramienta usar; las validaciones son código, con topes de iteraciones y tokens para controlar el costo.</p>
       <p><code>TypeScript</code> <code>Node.js</code> <code>Express</code> <code>Zod</code> <code>API de Claude</code> <code>Function Calling</code> <code>Slack</code></p>
